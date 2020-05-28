@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'LcdD';
+  src: url('LcdD.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+	font-family: 'MFLiHei';
+	src: url('MFLiHei_Noncommercial-Regular.otf');
+	font-style: normal;
+}

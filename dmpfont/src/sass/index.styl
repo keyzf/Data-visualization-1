@@ -1,0 +1,31 @@
+// 引入自定义flex布局样式
+@import "flex.styl"
+
+// 布局
+.igs-flex {
+  display: flex;display: -webkit-flex;
+  &.igs-flex2, &.igs-flex3, &.igs-flex8 { align-items: center;-webkit-align-items: center; }
+  &.igs-flex3, &.igs-flex4, &.igs-flex8 {align-content:center;-webkit-align-content:center;}
+  &.igs-flex3 { justify-content: center; -webkit-justify-content: center; }
+  &.igs-flex4 { justify-content: space-between; -webkit-justify-content: space-between;align-items: center; }
+  &.igs-flex5 { align-items: flex-start;-webkit-align-items: flex-start; }
+  &.igs-flex6 { justify-content: space-between; -webkit-justify-content: space-between;}
+  &.igs-flex7 { align-items: flex-end;-webkit-align-items: flex-end; }
+  &.igs-flex8 {justify-content: flex-end;-webkit-justify-content: flex-end;}
+  &.igs-flex9{flex-wrap: wrap;}
+  &.igs-flex10{justify-content:space-around;-webkit-justify-content: space-around;align-items: center;}
+  &.igs-flex11 { flex-direction: column;-webkit-flex-direction: column; }
+}
+.ellipsis{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.fr{
+    float:right;
+  } 
+.fl{
+  float:left;
+}
+
+
